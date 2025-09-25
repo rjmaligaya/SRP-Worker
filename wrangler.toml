@@ -1,0 +1,13 @@
+name = "chem112-srp-uploader"
+main = "worker.js"
+compatibility_date = "2024-12-01"
+
+[[r2_buckets]]
+binding = "DATA_BUCKET"          # do not change; referenced in worker.js
+bucket_name = "chem112-results"   # <-- replace with your R2 bucket name
+
+# If you want to mount to a custom route (e.g., https://queenschem112srp.com/upload)
+# uncomment and set your zone/routes:
+# routes = [
+#   { pattern = "queenschem112srp.com/upload", zone_name = "queenschem112srp.com" }
+# ]
