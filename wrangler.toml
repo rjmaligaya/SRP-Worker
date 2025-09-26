@@ -4,7 +4,7 @@ compatibility_date = "2024-09-01"
 
 [[r2_buckets]]
 binding = "DATA_BUCKET"
-bucket_name = "chem112-data"
+bucket_name = "chem112-results"
 
 # Map the specific path to this Worker (adjust zone_name to your Cloudflare zone)
 routes = [
