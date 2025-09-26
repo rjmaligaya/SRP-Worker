@@ -1,4 +1,4 @@
-name = "chem112-upload-worker"
+name = "srp-worker"
 main = "worker.js"
 compatibility_date = "2024-09-01"
 
